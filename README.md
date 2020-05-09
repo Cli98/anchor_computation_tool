@@ -11,6 +11,8 @@ For anchor_inspector, you need to provide a configuration file (.yml) together w
 
 Some examples:
 
+![alt text](https://github.com/Cli98/anchor_computation_tool/blob/master/images/anchor_example.png "Some visualized anchors")
+
 usage: anchor_inspector.py [-h] [-project_name PROJECT_NAME]
                            [-dataset_path DATASET_PATH] [-n NUM_WORKERS]
                            [--no-resize] [--anchors] [--annotations]
