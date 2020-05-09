@@ -49,6 +49,9 @@ Good luck!
 
 # Acknowledgement
 I refer to and modify code from those two repos,
+
 https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch
+
 https://github.com/zhouyuangan/K-Means-Anchors
+
 Thanks to their high quality code.
