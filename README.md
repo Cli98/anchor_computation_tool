@@ -13,7 +13,7 @@ Some examples:
 
 ![alt text](https://github.com/Cli98/anchor_computation_tool/blob/master/images/anchor_example.png "Some visualized anchors")
 
-usage: anchor_inspector.py [-h] [-project_name PROJECT_NAME]
+Usage: anchor_inspector.py [-h] [-project_name PROJECT_NAME]
                            [-dataset_path DATASET_PATH] [-n NUM_WORKERS]
                            [--no-resize] [--anchors] [--annotations]
                            [--random-transform]
@@ -38,8 +38,10 @@ Root
 
 --------------project.yaml
 
-Example:
+Simple code to run:
 python anchor_inspector.py -dataset_path ./datasets/a -project_name ./projects/a_project --output-dir debug_out
+
+# How to get customer anchor
 
 If you need to modify your anchors, then play with k_mean_anchor_size notebook. Run all notebook to get your anchor_scale and anchor_ratios. They will jump out to console at end.
 
