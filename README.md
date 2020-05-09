@@ -47,3 +47,8 @@ If you need to modify your anchors, then play with k_mean_anchor_size notebook. 
 
 Good luck!
 
+# Acknowledgement
+I refer to and modify code from those two repos,
+https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch
+https://github.com/zhouyuangan/K-Means-Anchors
+Thanks to their high quality code.
