@@ -11,7 +11,6 @@ For anchor_inspector, you need to provide a configuration file (.yml) together w
 
 Some examples:
 
-
 usage: anchor_inspector.py [-h] [-project_name PROJECT_NAME]
                            [-dataset_path DATASET_PATH] [-n NUM_WORKERS]
                            [--no-resize] [--anchors] [--annotations]
@@ -29,7 +28,7 @@ Root
 
 --------------Train data
 
---------------Valid data
+--------------Valid data!
 
 --------------Test data
 
@@ -39,4 +38,8 @@ Root
 
 Example:
 python anchor_inspector.py -dataset_path ./datasets/a -project_name ./projects/a_project --output-dir debug_out
+
+If you need to modify your anchors, then play with k_mean_anchor_size notebook. Run all notebook to get your anchor_scale and anchor_ratios. They will jump out to console at end.
+
+Good luck!
 
