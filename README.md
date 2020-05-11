@@ -56,7 +56,7 @@ https://github.com/zhouyuangan/K-Means-Anchors
 
 Thanks to their high quality code. And please take your time to check their repo if you want.
 
-# Develop plan
+# Development plan
 I understand that it is necessary to provide more tutorial/examples on how anchor works. Maybe more visualization. To improve this repo,
 
 1. I am currently conducting experiment on some open-source detection frameworks with an aerial dataset, as it contains more small objects. I will share some testing results once they are available. 
