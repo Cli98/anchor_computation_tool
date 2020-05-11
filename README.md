@@ -54,4 +54,15 @@ https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch
 
 https://github.com/zhouyuangan/K-Means-Anchors
 
-Thanks to their high quality code.
+Thanks to their high quality code. And please take your time to check their repo if you want.
+
+# Develop plan
+I understand that it is necessary to provide more tutorial/examples on how anchor works. Maybe more visualization. To improve this repo,
+
+1. I am currently conducting experiment on some open-source detection frameworks with an aerial dataset, as it contains more small objects. I will share some testing results once they are available. 
+
+2. I'm also writing to wrap up what I know, as best as I can, for basic concepts and some tips you may need to develop your customer anchors. Stay tuned.
+
+3. I'm not a computer vision phd and will always run into some errors/bugs. If you find some, please share your finding with everyone in this repo. You are welcome to PR.
+
+4. If you fail to observe any improvements after you plug-in and play with this repo, please open an issue and describe how thing goes. I will take my best effort to help. 
