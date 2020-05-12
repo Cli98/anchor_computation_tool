@@ -5,6 +5,9 @@ This repo primarily targets to help those who needs to compute anchors to custom
 1. An anchor visualization tool (anchor_inspector) to help you check if your anchor is suitable for your current dataset. If yes, then you do not need to modify your anchors. Else,
 2. If no, then give a try to my implementation (k_mean_anchor_size) which is able to compute anchors for two-stage detectors and return anchor_scale + anchor_ratios. Those parameters are critical for object detection (for example in mmdetection). For some single-stage detector, you only need kmean results. Simple take them from my implementation.
 
+# update log
+[05-12-2020] As observed by jinfagang, passing boolean variable ("anchors" and "annotations") from terminal may not work. The author originally considers to load those parameters from yaml file only. An updated will be provided to allow passing boolean variables from terminal.
+
 # Usage
 
 For anchor_inspector, you need to provide a configuration file (.yml) together with the path to the dataset. If you are not able to access gui (maybe you host code on a server), then it is fine. Just enable --no_gui option. Else, you will be able to visualize your current input and annotations boxes on image. The green bbox indicates a match but red is not. So be alarmed if you see lots of red bboxs.
