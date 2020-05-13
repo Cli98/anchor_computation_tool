@@ -5,6 +5,8 @@ This repo primarily targets to help those who needs to compute anchors to custom
 1. An anchor visualization tool (anchor_inspector) to help you check if your anchor is suitable for your current dataset. If yes, then you do not need to modify your anchors. Else,
 2. If no, then give a try to my implementation (k_mean_anchor_size) which is able to compute anchors for two-stage detectors and return anchor_scale + anchor_ratios. Those parameters are critical for object detection (for example in mmdetection). For some single-stage detector, you only need kmean results. Simple take them from my implementation.
 
+The result has been tested on mmdetection framework with Faster Rcnn FPN algorithm, obtained an AP improvement of 2.2 points on typical aerial image detection dataset. This is a decent improvements from my perspective. 
+
 # update log
 [05-12-2020] As observed by jinfagang, passing boolean variable ("anchors" and "annotations") from terminal may not work. The author originally considers to load those parameters from yaml file only. An updated will be provided to allow passing boolean variables from terminal.
 
@@ -69,3 +71,9 @@ I understand that it is necessary to provide more tutorial/examples on how ancho
 3. I'm not a computer vision phd and will always run into some errors/bugs. If you find some, please share your finding with everyone in this repo. You are welcome to PR.
 
 4. If you fail to observe any improvements after you plug-in and play with this repo, please open an issue and describe how thing goes. I will take my best effort to help. 
+
+# TODO list
+The repo author is currently working on some side projects as well for following two weeks. So there might be delays for those to-dos. Apologize for any inconvenience this may cause. And you're welcome to PR.
+
+1. Build tutorial (shape dataset) and provide a working example.
+2. Improve part of code to make it easier to use.
