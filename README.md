@@ -73,7 +73,7 @@ I understand that it is necessary to provide more tutorial/examples on how ancho
 4. If you fail to observe any improvements after you plug-in and play with this repo, please open an issue and describe how thing goes. I will take my best effort to help. 
 
 # TODO list
-The repo author is currently working on some side projects as well for following two weeks. So there might be delays for those to-dos. Apologize for any inconvenience this may cause. And you're welcome to PR.
+The repo author is currently working on some side projects as well for the following two weeks. So there might be delays for those to-dos. Apologize for any inconvenience this may cause. And you're welcome to PR.
 
 1. Build tutorial (shape dataset) and provide a working example.
 2. Improve part of code to make it easier to use.
