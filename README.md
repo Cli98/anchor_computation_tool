@@ -7,7 +7,7 @@ This repo primarily targets to help those who needs to compute anchors to custom
 
 The result has been tested on mmdetection framework with Faster Rcnn FPN algorithm, obtained an AP improvement of 2.2 points on typical aerial image detection dataset. This is a decent improvements from my perspective. 
 
-# update log
+# Update log
 [05-12-2020] As observed by jinfagang, passing boolean variable ("anchors" and "annotations") from terminal may not work. The author originally considers to load those parameters from yaml file only. An updated will be provided to allow passing boolean variables from terminal.
 
 # Usage
