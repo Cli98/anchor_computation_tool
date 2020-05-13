@@ -44,6 +44,7 @@ Root
 --------------project.yaml
 
 Simple code to run:
+
 python anchor_inspector.py -dataset_path ./datasets/a -project_name ./projects/a_project --output-dir debug_out
 
 # How to get customer anchor
