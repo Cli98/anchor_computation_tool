@@ -77,3 +77,5 @@ The repo author is currently working on some side projects as well for the follo
 
 1. Build tutorial (shape dataset) and provide a working example.
 2. Improve part of code to make it easier to use.
+3. Revision for coord normalization for kmean code.
+4. Pass boolean variable from terminal.
