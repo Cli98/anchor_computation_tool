@@ -45,7 +45,9 @@ Root
 
 Simple code to run:
 
-python anchor_inspector.py -dataset_path ./datasets/project -project_name ./projects/project_folder --output-dir debug_out
+python anchor_inspector.py -dataset_path ./datasets/project_folder -project_name ./projects/project_folder --output-dir debug_out
+
+The "project_folder" in "dataset_path" refers to the data folder where you save image and annotation, and in "project_name" refers to the yaml file for configuration purpose. 
 
 # How to get customer anchor
 
