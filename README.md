@@ -35,7 +35,7 @@ Root
 
 --------------Train data
 
---------------Valid data!
+--------------Valid data
 
 --------------Test data
 
@@ -45,7 +45,7 @@ Root
 
 Simple code to run:
 
-python anchor_inspector.py -dataset_path ./datasets/a -project_name ./projects/a_project --output-dir debug_out
+python anchor_inspector.py -dataset_path ./datasets/project -project_name ./projects/project_folder --output-dir debug_out
 
 # How to get customer anchor
 
